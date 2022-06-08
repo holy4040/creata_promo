@@ -2,7 +2,7 @@ import axios from "axios";
 import { message } from 'antd';
 export const submitPromotionCode = async (values) => {
     try {
-        const url = "http://127.0.0.1:8000/api/v1/promotioncode/submit/";
+        const url = "http://127.0.0.1:8080/api/v1/promotioncode/submit/";
         var formdata = new FormData();
         formdata.append("promo_code", values.promo_code);
         formdata.append("email", values.email);

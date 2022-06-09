@@ -1,3 +1,8 @@
+Creata interview project
+Simple submit form page with api call in src/api/index.jsx
+Need to update the API url if required.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -72,7 +72,7 @@ const App = () => {
 								message: "Please enter your first name",
 							},
 							{ whitespace: true },
-							{ min: 3 },
+							{ min: 1 },
 						]}
 						hasFeedback
 					>
@@ -88,7 +88,7 @@ const App = () => {
 								message: "Please enter your last name",
 							},
 							{ whitespace: true },
-							{ min: 3 },
+							{ min: 1 },
 						]}
 						hasFeedback
 					>
